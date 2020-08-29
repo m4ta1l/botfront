@@ -1,0 +1,17 @@
+{
+	"dockerfiles": {
+		"Dockerfile": [
+			{
+				"name": "geoffreybooth/meteor-base",
+				"tag": "1.10.1",
+				"digest": "3f397747a377428a12e3e725a368916139173ad3ef3c173896666734022782b2"
+			},
+			{
+				"name": "node",
+				"tag": "12-alpine",
+				"digest": "9623cd396644f9b2e595d833dc0188a880333674488d939338ab5fde10ef7c43"
+			}
+		]
+	},
+	"composefiles": {}
+}
