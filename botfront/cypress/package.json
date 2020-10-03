@@ -1,20 +1,20 @@
 {
-  "name": "e2e",
-  "version": "1.0.0",
-  "description": "Cypress tests",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Botfront <hi@botfront> ",
-  "license": "AGPL",
-  "private": true,
-  "devDependencies": {
-    "axios": "^0.19.0",
-    "chai": "^4.2.0",
-    "cypress": "3.6.0",
-    "cypress-plugin-retries": "1.2.2",
-    "js-yaml": "^3.14.0"
-  }
+    "name": "e2e",
+    "version": "1.0.0",
+    "description": "Cypress tests",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Botfront <hi@botfront> ",
+    "license": "AGPL",
+    "private": true,
+    "devDependencies": {
+        "axios": "^0.19.0",
+        "chai": "^4.2.0",
+        "cypress": "3.6.0",
+        "cypress-plugin-retries": "1.2.2",
+        "js-yaml": "^3.14.0"
+    }
 }
