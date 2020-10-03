@@ -1,66 +1,66 @@
 {
-  "name": "botfront",
-  "version": "0.26.0",
-  "repository": "https://github.com/botfront/botfront",
-  "description": "Botfront is an open source chatbot platform based on Rasa.",
-  "main": "index.js",
-  "scripts": {
-    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --reporter spec --colors --exit --require @babel/register",
-    "postinstall": "echo Botfront succesfully installed. Run 'botfront' to get started."
-  },
-  "bin": {
-    "botfront": "bin/botfront"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "Botfront",
-    "Rasa",
-    "Chatbot",
-    "Chatbot platform",
-    "Botkit"
-  ],
-  "preferGlobal": true,
-  "author": "Botfront",
-  "license": "AGPL-3.0-only",
-  "dependencies": {
-    "arg": "^4.1.3",
-    "compare-version": "0.1.2",
-    "axios": "^0.19.0",
-    "boxen": "^4.1.0",
-    "chalk": "^2.4.2",
-    "check-node-version": "^4.0.1",
-    "chokidar": "^3.0.2",
-    "commander": "^2.20.0",
-    "docker-cli-js": "~2.5.3",
-    "esm": "^3.2.25",
-    "fs-extra": "^8.1.0",
-    "inquirer": "^6.5.0",
-    "js-yaml": "^3.13.1",
-    "ncp": "^2.0.0",
-    "open": "^6.4.0",
-    "ora": "^3.4.0",
-    "shelljs": "~0.8.3",
-    "unique-names-generator": "^3.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/register": "^7.7.4",
-    "@commitlint/cli": "8.1.0",
-    "@commitlint/config-conventional": "8.1.0",
-    "babel-eslint": "^10.0.2",
-    "chai": "^4.2.0",
-    "cross-env": "^6.0.3",
-    "eslint": "^6.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "husky": "2.7.0",
-    "mocha": "^6.2.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "name": "botfront",
+    "version": "0.26.0",
+    "repository": "https://github.com/botfront/botfront",
+    "description": "Botfront is an open source chatbot platform based on Rasa.",
+    "main": "index.js",
+    "scripts": {
+        "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --reporter spec --colors --exit --require @babel/register",
+        "postinstall": "echo Botfront succesfully installed. Run 'botfront' to get started."
+    },
+    "bin": {
+        "botfront": "bin/botfront"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "Botfront",
+        "Rasa",
+        "Chatbot",
+        "Chatbot platform",
+        "Botkit"
+    ],
+    "preferGlobal": true,
+    "author": "Botfront",
+    "license": "AGPL-3.0-only",
+    "dependencies": {
+        "arg": "^4.1.3",
+        "compare-version": "0.1.2",
+        "axios": "^0.19.0",
+        "boxen": "^4.1.0",
+        "chalk": "^2.4.2",
+        "check-node-version": "^4.0.1",
+        "chokidar": "^3.0.2",
+        "commander": "^2.20.0",
+        "docker-cli-js": "~2.5.3",
+        "esm": "^3.2.25",
+        "fs-extra": "^8.1.0",
+        "inquirer": "^6.5.0",
+        "js-yaml": "^3.13.1",
+        "ncp": "^2.0.0",
+        "open": "^6.4.0",
+        "ora": "^3.4.0",
+        "shelljs": "~0.8.3",
+        "unique-names-generator": "^3.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.5",
+        "@babel/preset-env": "^7.7.6",
+        "@babel/register": "^7.7.4",
+        "@commitlint/cli": "8.1.0",
+        "@commitlint/config-conventional": "8.1.0",
+        "babel-eslint": "^10.0.2",
+        "chai": "^4.2.0",
+        "cross-env": "^6.0.3",
+        "eslint": "^6.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "husky": "2.7.0",
+        "mocha": "^6.2.2"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
     }
-  }
 }
