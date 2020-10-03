@@ -20,7 +20,7 @@
     "postinstall": "cp -R node_modules/semantic-ui-css/themes/default/assets/fonts ./public/ && cp -R node_modules/semantic-ui-css/themes/default/assets/fonts ./client/"
   },
   "dependencies": {
-    "@apollo/react-components": "^3.1.3",
+    "@apollo/react-components": "^3.1.5",
     "@apollo/react-hooks": "^3.1.3",
     "@atlaskit/tree": "^7.1.2",
     "@babel/runtime": "^7.4.5",
