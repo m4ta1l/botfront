@@ -9,9 +9,8 @@
 			{
 				"name": "node",
 				"tag": "12-alpine",
-				"digest": "663da4974c48ef1ac5abd10c432c6a154cb675a0e5ca2324d8f92a1edb8429e2"
+				"digest": "c8b5faa496b3eaaaee30e278abee431ec7dfec03e07ca0fc6ee39e31f36e5021"
 			}
 		]
-	},
-	"composefiles": {}
+	}
 }
