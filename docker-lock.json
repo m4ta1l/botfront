@@ -4,12 +4,12 @@
 			{
 				"name": "geoffreybooth/meteor-base",
 				"tag": "1.10.1",
-				"digest": ""
+				"digest": "f25c7fec2202f1bbfd32fd600c8a4f36879fc18aecce9c75ee18e37cea7c03a5"
 			},
 			{
 				"name": "node",
 				"tag": "12-alpine",
-				"digest": ""
+				"digest": "f41254711c6490fc7d97ade245a853ff31cb25f1f86171359845b71d2ccec2aa"
 			}
 		]
 	}
